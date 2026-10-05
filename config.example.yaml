@@ -1,0 +1,28 @@
+# Copy to config.yaml before first use. install.bat does this automatically.
+# 修改后在托盘选择“重新加载配置和模型”。
+hotkey: CapsLock
+toggle_hotkey: Ctrl+Space
+retry_hotkey: Ctrl+Alt+V
+model: turbo
+device: auto
+compute_type: auto
+language: zh
+initial_prompt: "简体中文。技术词：Python, API, endpoint, Git。"
+microphone: null
+paste_method: clipboard
+restore_clipboard: true
+paste_wait_ms: 350
+auto_start: false
+audio_feedback: false
+debug_logging: false
+save_audio: false
+save_transcripts: false
+max_record_seconds: 120
+min_record_seconds: 0.25
+beam_size: 1
+vad_filter: true
+cpu_fallback: true
+# 首次下载需要联网；模型缓存完整后可设 true，完全离线启动。
+offline: false
+# 沿用 Windows 当前 HTTP 代理，仅用于下载，不传输录音。
+download_proxy: system

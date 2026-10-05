@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+
+# Personal configuration and local AI handoff stay on this computer.
+/config.yaml
+/AI接手说明.md
+/需求原文.txt
+/发布记录.local.md
+
+# Runtime data, credentials, and build artifacts are not source code.
+.env
+.env.*
+!.env.example
+*.log
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.pem
+*.key
+models/
+audio/
+transcripts.jsonl
+status.json
+benchmark.json
+build/
+dist/
+.pytest_cache/
